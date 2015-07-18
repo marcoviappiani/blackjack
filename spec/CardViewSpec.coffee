@@ -1,7 +1,7 @@
 assert = chai.assert
 
-describe "deck constructor", ->
+describe "Card View", ->
 
-  it "should create a card collection", ->
+  it "should do stuff", ->
     collection = new Deck()
     # assert.strictEqual collection.length, 52
