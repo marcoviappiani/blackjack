@@ -31,8 +31,9 @@ class window.Hand extends Backbone.Collection
 
   dealerPlay: ->
     console.log 'dealer is playing'
-    @at(0).flip()
+    @dealerFlip()
     @hit() while @scores()[1] < 17 or @scores()[0] <17
 
-
+  dealerFlip: ->
+    @at(0).flip()
 
